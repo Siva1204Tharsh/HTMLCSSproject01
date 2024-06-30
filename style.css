@@ -161,5 +161,60 @@ hr {
 }
 
 
+/* Breakpoints 
+xs/small phones (portrait) -576px
+sm/medium tablets-768px
+lg/desktops (landscape) -992px
+xl/large desktops (landscape) -1200px
+xxl/extra large desktops (landscape) -1600px
+*/
+@media screen  and (max-width: 720px) {
+  header {
+    position: static;
+    background-color: rgb(38, 81, 109);
+  }
+  .banner h2 {
+    position: static;
+    border-radius: 0;
+    margin: 0;
+    font-size: 0.95em;
+  }
+
+  nav li {
+    display: block;
+    line-height: 3px;
+  }
+
+  nav {
+    top: 0;
+  }
+
+  article ul li {
+    display: block;
+    width: 100%;
+    
+  }
+
+  .state-list {
+    column-count: 2;
+  }
+  
+}
+
+@media  screen and (max-width: 992px) {
+  header {
+    position: static;
+
+  }
+  nav {
+    top: 0;
+  }
+
+  .banner h2 {
+    font-size: 1.1em;
+  }
+
+  
+}
 
 
